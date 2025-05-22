@@ -1,0 +1,24 @@
+.chat-container{
+    display: flex;
+    cursor: pointer;
+}
+
+.chat-photo{
+    width: 60px;
+    height: 60px;
+}
+
+.chat-info{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.chat-title, .chat-subtitle{
+    margin: 0;
+}
+
+.active-chat{
+    border-right: 2px solid #bbbbff;
+}

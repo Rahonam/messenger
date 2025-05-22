@@ -1,0 +1,22 @@
+.message-box{
+    max-width: 80%;
+    align-self: flex-start;
+    background: #eeeeee;
+    border-radius: 1rem;
+    * {
+        margin: 0;
+    }
+}
+
+.own-text{
+    align-self: flex-end;
+    background: #eeeeff;
+}
+
+.message-info{
+    padding: 4px;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}

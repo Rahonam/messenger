@@ -1,0 +1,38 @@
+.layout-container{
+    display: grid;
+    width: 100%;
+    height: 90vh;
+
+    grid-auto-flow: column;
+    grid-template-columns: 30% 70%;
+
+    background: #ffffff;
+    border-radius: 16px;
+}
+
+.side-container, .message-container{
+    display: grid;
+    grid-template-rows: 80px auto 80px;
+    > *{
+        padding: 1rem;
+    }
+}
+
+.side-container{
+    border-right: 1px solid #eeeeee;
+}
+
+.search-input, .message-input{
+    padding: 8px;
+    width: 90%;
+    border-radius: 8px;
+}
+
+.message-title{
+    font-weight: bold;
+}
+
+.message-list{
+    display: flex;
+    flex-direction: column;
+}
