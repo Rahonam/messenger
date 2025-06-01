@@ -5,6 +5,7 @@ import './MainLayout.css';
 import { useState } from 'react';
 import { addMessage } from '../stores/messageSlice';
 import { v4 as uuidv4 } from 'uuid';
+import { updateChatLastMessage } from '../stores/chatSlice';
 
 function MainLayout(props) {
     const {chatById, activeChatId} = useSelector(state => state.chats);

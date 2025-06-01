@@ -5,7 +5,7 @@ const chatSlice = createSlice({
     initialState: {
         chatById: {
             chat1: {id: "chat1", name: "Manohar", lastMessage: "Hi there!"},
-            chat2: {id: "chat2", name: "Kumar", lastMessage: "Hola!"}
+            chat2: {id: "chat2", name: "Kumar", lastMessage: ""}
         },
         chatIds: ["chat1", "chat2"],
         activeChatId: "chat1"

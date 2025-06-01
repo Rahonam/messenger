@@ -5,8 +5,8 @@ const messageSlice = createSlice({
     initialState: {
         messagesByChatId: {
             chat1: [
-                {id: "msg1", text: "Hello", sender: "Manohar", timestamp: 1747896297},
-                {id: "msg2", text: "Hi there!", sender: "self", timestamp: 1747896378}
+                {id: "msg1", text: "Hello", sender: "Manohar", timestamp: 1747896297000},
+                {id: "msg2", text: "Hi there!", sender: "self", timestamp: 1747896378000}
             ]
         }
     },
